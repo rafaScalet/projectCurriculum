@@ -19,14 +19,14 @@
   background-color: #88888811;
 }
 
-/* lines */
-.line {
+/* linhas */
+.linha {
   border-top: 1px solid #20252a67;
   margin: 10px 0;
   /* width: 50%; */
 }
 
-.line-A {
+.linha-A {
   border-top: 1px solid #20252a67;
   width: 90%;
   margin: 10px 0;
@@ -52,8 +52,14 @@ time {
   gap: 2rem;
 }
 
-/*profile */
-.profile {
+.sup{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+/*perfil */
+.perfil {
   font: var(--fw-semibold) 2.5rem/40px var(--f-poppins);
 }
 
@@ -61,193 +67,169 @@ h1 {
   text-transform: uppercase;
 }
 
-.profile h2 {
+.perfil h2 {
   font: var(--fw-regular) 1.5rem/30px var(--f-poppins);
   color: var(--clr-greendark);
 }
 
-.profile address {
+.perfil address {
   font: var(--fw-medium) 1rem/30px var(--f-poppins);
   gap: 1rem;
 }
 
-/* aboutMe */
-.aboutMe {
+/* sobreMim */
+
+.sobreMim {
   margin: 3rem 0;
 }
 
-.aboutMe h2 {
+.sobreMim h2 {
   font: var(--fw-regular) 1.5rem/25px var(--f-poppins);
   text-transform: uppercase;
 }
 
-.aboutMe p {
+.sobreMim p {
   font: var(--fw-medium) 1rem/20px var(--f-poppins);
 }
 
-.aboutMe span {
+.sobreMim span {
   font-weight: var(--fw-bold);
 }
 
-.contact {
+/* contato */
+
+.contato {
   margin: 3rem 0;
 }
 
-.contact h2 {
+.contato h2 {
   font: var(--fw-regular) 1.5rem/25px var(--f-poppins);
   text-transform: uppercase;
 }
 
-.contact ul a {
+.contato ul a {
   font: var(--fw-medium) 1.2rem/20px var(--f-poppins);
 }
 
-.contact ul li {
+.contato ul li {
   margin-bottom: 1rem;
 }
 
-.contact span {
+.contato span {
   font-weight: var(--fw-bold);
 }
 
-.sup{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-}
+/* escolaridades*/
 
-/* personalProject*/
-.personalProject {
+.escolaridades {
   margin: 3rem 0;
 }
 
-.personalProject h2 {
+.escolaridades h2 {
   font: var(--fw-regular) 1.5rem/25px var(--f-poppins);
   text-transform: uppercase;
 }
 
-.personalProject h3 {
+.escolaridades h3 {
   font: var(--fw-medium) 1.5rem/20px var(--f-poppins);
   margin-bottom: 0.8rem;
   color: var(--clr-greendark);
 }
 
-.personalProject h4 {
+.escolaridades h4 {
   font: var(--fw-medium) 1.2rem/25px var(--f-poppins);
   margin-bottom: 0rem;
   color: var(--clr-greendark);
 }
 
-.personalProject p {
+.escolaridades p {
   font: var(--fw-regular) 1.25rem/20px var(--f-poppins);
   margin-bottom: 0.8rem;
 }
 
-.personalProject time {
+.escolaridades time {
   margin-left: 0;
 }
 
-.qualifications {
-  margin-bottom: 3rem;
-}
+/* cursos */
 
-.qualifications h2 {
-  font: var(--fw-regular) 1.5rem/25px var(--f-poppins);
-  text-transform: uppercase;
-}
-
-.qualifications h3 {
-  font: var(--fw-semibold) 1rem/20px var(--f-poppins);
-  color: var(--clr-greendark);
-}
-
-.qualifications div {
-  margin-bottom: 1rem;
-}
-
-.qualifications p {
-  font: var(--fw-medium) 1rem/20px var(--f-poppins);
-  margin: 0.5rem 0;
-}
-
-/* courses */
-.courses {
+.cursos {
   margin-bottom: 3rem;
   display: grid;
 }
 
-.courses h2 {
+.cursos h2 {
   font: var(--fw-regular) 1.5rem/25px var(--f-poppins);
   text-transform: uppercase;
 }
 
-.courses h3 {
+.cursos h3 {
   font: var(--fw-medium) 1rem/20px var(--f-poppins);
 }
 
-.courses div {
+.cursos div {
   margin-bottom: 1rem;
 }
 
-/* additional */
+/* adicional */
 
-.additional {
+.adicional {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-bottom: 3rem;
 }
 
-.additional h2 {
+.adicional h2 {
   font: var(--fw-regular) 1.5rem/25px var(--f-poppins);
   text-transform: uppercase;
 }
 
-.additional h3 {
+.adicional h3 {
   font: var(--fw-bold) 1rem/20px var(--f-poppins);
   text-transform: uppercase;
   letter-spacing: 3px;
 }
 
-.additional div {
+.adicional div {
   margin-bottom: 1rem;
 }
 
-.additional time {
+.adicional time {
   font: var(--fw-medium) 1rem/20px var(--f-poppins);
   margin-left: 2rem;
   color: var(--clr-greendark);
 }
 
-/* ability */
-.ability ul {
+/* habilidade */
+.habilidade ul {
   font: var(--fw-medium) 0.95rem/20px var(--f-poppins);
 }
 
-/* technologies */
-.technologies ul {
+/* tecnologias */
+.tecnologias ul {
   display: grid;
   grid-template-rows: repeat(4, 39px);
   grid-template-columns: repeat(2, 33%);
 }
 
-.technologies {
+.tecnologias {
   margin: 3rem 0;
 }
 
-.technologies h2 {
+.tecnologias h2 {
   font: var(--fw-regular) 1.5rem/25px var(--f-poppins);
   text-transform: uppercase;
 }
 
-.technologies ul a {
+.tecnologias ul a {
   font: var(--fw-medium) 1.2rem/20px var(--f-poppins);
 }
 
-.technologies ul li {
+.tecnologias ul li {
   margin-bottom: 1rem;
 }
 
-.technologies span {
+.tecnologias span {
   font-weight: var(--fw-bold);
 }
 
@@ -267,23 +249,23 @@ footer nav p {
     padding: 2rem;
   }
 
-  .line-A {
+  .linha-A {
     width: 100%;
   }
 
-  .additional {
+  .adicional {
     display: block;
   }
 
-  .ability ul,
-  .technologies ul {
+  .habilidade ul,
+  .tecnologias ul {
     grid-template-rows: none;
     gap: 1rem;
   }
 
-  .ability,
-  .technologies,
-  .english {
+  .habilidade,
+  .tecnologias,
+  .idiomas {
     margin-top: 3rem;
   }
 }
@@ -294,12 +276,12 @@ footer nav p {
     margin: 3rem auto;
   }
 
-  .profile address {
+  .perfil address {
     display: block;
   }
 
-  .ability ul,
-  .technologies ul {
+  .habilidade ul,
+  .tecnologias ul {
     grid-template-rows: none;
   }
 
